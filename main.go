@@ -80,5 +80,5 @@ func GenerateResponseWithGPT(message string) string {
 		}
 	}
 
-	return "申し訳ありませんが、応答を生成できませんでした。"
+	return "can't generate message"
 }
